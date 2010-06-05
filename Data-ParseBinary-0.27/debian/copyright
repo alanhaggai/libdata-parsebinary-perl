@@ -4,7 +4,7 @@ Source: http://search.cpan.org/dist/Data-ParseBinary/
 Name: Data-ParseBinary
 
 Files: *
-Copyright: Shmuel Fomberg <owner@semuel.co.il>
+Copyright: 2008, Shmuel Fomberg <owner@semuel.co.il>
 License: Artistic or GPL-1+
 
 Files: debian/*

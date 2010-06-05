@@ -1,3 +1,5 @@
+Description: Fix manpage-has-bad-whatis-entry
+Author: Alan Haggai Alavi <alanhaggai@alanhaggai.org>
 --- a/lib/Data/ParseBinary/Graphics/BMP.pm
 +++ b/lib/Data/ParseBinary/Graphics/BMP.pm
 @@ -97,7 +97,7 @@

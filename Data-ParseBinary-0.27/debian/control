@@ -1,0 +1,19 @@
+Source: libdata-parsebinary-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl (>= 5.10.0)
+Maintainer: Alan Haggai Alavi <alanhaggai@alanhaggai.org>
+Standards-Version: 3.8.4
+Homepage: http://search.cpan.org/dist/Data-ParseBinary/
+
+Package: libdata-parsebinary-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}, perl (>= 5.10.0)
+Description: Yet another parser for binary structures
+ Data::ParseBinary is a Perl Port for PyConstructs
+ http://construct.wikispaces.com/
+ .
+ This module enables writing declarations for simple and complex binary
+ structures, parsing binary to hash/array data structure, and building binary
+ data from hash/array data structure.

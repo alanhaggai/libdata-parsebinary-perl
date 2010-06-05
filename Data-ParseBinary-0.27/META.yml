@@ -1,0 +1,20 @@
+--- #YAML:1.0
+name:               Data-ParseBinary
+version:            0.27
+abstract:           Yet Another parser for binary structures
+author:
+    - Shmuel Fomberg <owner@semuel.co.il>
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Math::BigInt:  1.88
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.48
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4

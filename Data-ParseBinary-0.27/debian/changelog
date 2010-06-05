@@ -1,0 +1,5 @@
+libdata-parsebinary-perl (0.27-1) unstable; urgency=low
+
+  * Initial Release. (closes: #583891)
+
+ -- Alan Haggai Alavi <alanhaggai@alanhaggai.org>  Sat, 5 Jun 2010 07:04:41 +0530

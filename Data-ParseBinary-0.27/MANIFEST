@@ -35,7 +35,7 @@ t/bitmapx4.bmp
 t/bitmapx8.bmp
 t/bitmapx24.bmp
 t/_ctypes_test.so
-t/notepad.exe
+#t/notepad.exe
 t/python.exe
 t/sqlite3.dll
 t/netflowv5.pdu

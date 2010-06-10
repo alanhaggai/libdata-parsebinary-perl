@@ -13,7 +13,7 @@ use Data::ParseBinary::Executable::ELF32 qw{$elf32_parser};
 use Data::ParseBinary::Data::Cap qw{$data_cap_parser};
 use Data::ParseBinary::FileSystem::MBR qw{$mbr_parser};
 use Data::ParseBinary::Data::Netflow qw($netflow_v5_parser);
-use Test::More tests => 27;
+use Test::More tests => 26;
 #use Test::More qw(no_plan);
 $| = 1;
 
@@ -33,7 +33,7 @@ test_parse_build($png_parser, "png1.png");
 
 test_parse_build($wmf_parser, "wmf1.wmf");
 
-test_parse_only($pe32_parser, "notepad.exe");
+#test_parse_only($pe32_parser, "notepad.exe");
 test_parse_only($pe32_parser, "sqlite3.dll");
 
 test_parse_build($elf32_parser, "_ctypes_test.so");
